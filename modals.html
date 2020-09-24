@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<title>Modaals, Popovers, Tooltips</title>
+</head>
+<body>
+
+
+	<nav id="navbar-example2" class="navbar fixed-top navbar-light bg-light">
+	  <a class="navbar-brand" href="#">Navbar</a>
+	  <ul class="nav nav-pills">
+	    <li class="nav-item">
+	      <a class="nav-link" href="#fat">@fat</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="#mdo">@mdo</a>
+	    </li>
+	    <li class="nav-item dropdown">
+	      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+	      <div class="dropdown-menu">
+	        <a class="dropdown-item" href="#one">one</a>
+	        <a class="dropdown-item" href="#two">two</a>
+	        <div role="separator" class="dropdown-divider"></div>
+	        <a class="dropdown-item" href="#three">three</a>
+	      </div>
+	    </li>
+	  </ul>
+	</nav>
+	<div data-spy="scroll" data-target="#navbar-example2" data-offset="0" style="margin-top:80px">
+	  <h4 id="fat">@fat</h4>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis felis metus, elementum et nisl ut, aliquam placerat mauris. In id elit at nunc aliquet tempor tempor at purus. Mauris et luctus mauris. Donec eros nisi, finibus sed justo sit amet, malesuada lobortis sapien. Vivamus commodo eget quam laoreet finibus. Duis felis lacus, congue at risus a, molestie vestibulum justo. Etiam vel porttitor odio. Vestibulum ac metus in metus pretium vehicula euismod ac arcu. In vitae tortor mollis, tempus urna vel, efficitur augue. Nam sagittis ex at massa bibendum vehicula. Ut non felis at turpis placerat rhoncus. Sed quis sodales purus, non rhoncus sem. Etiam ac turpis at felis malesuada venenatis quis in elit.Ut condimentum et dui et vehicula. Maecenas tincidunt ultrices massa. Nulla id euismod quam. Suspendisse consectetur sollicitudin elementum. Pellentesque vitae tortor sem. Pellentesque at massa venenatis, euismod dolor sit amet, ultrices neque. Cras a risus molestie orci ultrices pharetra. Integer vel hendrerit orci, ut sodales enim. In convallis orci quis tortor maximus, sit amet congue tellus imperdiet. Ut tempor rhoncus nisl, eu mattis sapien laoreet sed. Nam vitae interdum ex. Nullam nibh nisi, pretium non sapien eget, egestas maximus lorem. Proin ultricies pulvinar orci, vitae luctus est dapibus sit amet. Quisque pulvinar accumsan ipsum in vehicula. Etiam non dapibus risus. Phasellus hendrerit mauris in enim maximus, aliquam dapibus diam bibendum.
+
+Sed eleifend finibus sapien ac posuere. Nunc eleifend libero mattis sapien ornare porttitor. Phasellus condimentum libero ac ex luctus, eget aliquam mauris vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum aliquet egestas pharetra. Integer tincidunt, ex a pretium placerat, leo est convallis dui, ac dignissim ipsum est sit amet metus. Vestibulum viverra, risus a euismod elementum, enim felis sodales dui, non ornare nunc dui blandit libero. Nulla lorem lorem, elementum at accumsan a, porta nec nibh. Donec imperdiet, justo quis sagittis lobortis, arcu magna ornare neque, eget malesuada arcu augue nec libero. Ut vitae augue ornare, ornare odio sit amet, sodales turpis. Ut eu mi tortor. Nulla lacus risus, rhoncus in ex at, imperdiet tempus elit. Vestibulum vel turpis elit. Fusce eget ex justo. Cras vitae neque lacinia, tincidunt quam a, laoreet lacus. Nam quam est, faucibus eget sodales id, placerat a nibh.</p>
+	  <h4 id="mdo">@mdo</h4>
+	  <p>Ut condimentum et dui et vehicula. Maecenas tincidunt ultrices massa. Nulla id euismod quam. Suspendisse consectetur sollicitudin elementum. Pellentesque vitae tortor sem. Pellentesque at massa venenatis, euismod dolor sit amet, ultrices neque. Cras a risus molestie orci ultrices pharetra. Integer vel hendrerit orci, ut sodales enim. In convallis orci quis tortor maximus, sit amet congue tellus imperdiet. Ut tempor rhoncus nisl, eu mattis sapien laoreet sed. Nam vitae interdum ex. Nullam nibh nisi, pretium non sapien eget, egestas maximus lorem. Proin ultricies pulvinar orci, vitae luctus est dapibus sit amet. Quisque pulvinar accumsan ipsum in vehicula. Etiam non dapibus risus. Phasellus hendrerit mauris in enim maximus, aliquam dapibus diam bibendum.
+
+Sed eleifend finibus sapien ac posuere. Nunc eleifend libero mattis sapien ornare porttitor. Phasellus condimentum libero ac ex luctus, eget aliquam mauris vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum aliquet egestas pharetra. Integer tincidunt, ex a pretium placerat, leo est convallis dui, ac dignissim ipsum est sit amet metus. Vestibulum viverra, risus a euismod elementum, enim felis sodales dui, non ornare nunc dui blandit libero. Nulla lorem lorem, elementum at accumsan a, porta nec nibh. Donec imperdiet, justo quis sagittis lobortis, arcu magna ornare neque, eget malesuada arcu augue nec libero. Ut vitae augue ornare, ornare odio sit amet, sodales turpis. Ut eu mi tortor. Nulla lacus risus, rhoncus in ex at, imperdiet tempus elit. Vestibulum vel turpis elit. Fusce eget ex justo. Cras vitae neque lacinia, tincidunt quam a, laoreet lacus. Nam quam est, faucibus eget sodales id, placerat a nibh.Ut condimentum et dui et vehicula. Maecenas tincidunt ultrices massa. Nulla id euismod quam. Suspendisse consectetur sollicitudin elementum. Pellentesque vitae tortor sem. Pellentesque at massa venenatis, euismod dolor sit amet, ultrices neque. Cras a risus molestie orci ultrices pharetra. Integer vel hendrerit orci, ut sodales enim. In convallis orci quis tortor maximus, sit amet congue tellus imperdiet. Ut tempor rhoncus nisl, eu mattis sapien laoreet sed. Nam vitae interdum ex. Nullam nibh nisi, pretium non sapien eget, egestas maximus lorem. Proin ultricies pulvinar orci, vitae luctus est dapibus sit amet. Quisque pulvinar accumsan ipsum in vehicula. Etiam non dapibus risus. Phasellus hendrerit mauris in enim maximus, aliquam dapibus diam bibendum.</p>
+	  <h4 id="one">one</h4>
+	  <p>Ut condimentum et dui et vehicula. Maecenas tincidunt ultrices massa. Nulla id euismod quam. Suspendisse consectetur sollicitudin elementum. Pellentesque vitae tortor sem. Pellentesque at massa venenatis, euismod dolor sit amet, ultrices neque. Cras a risus molestie orci ultrices pharetra. Integer vel hendrerit orci, ut sodales enim. In convallis orci quis tortor maximus, sit amet congue tellus imperdiet. Ut tempor rhoncus nisl, eu mattis sapien laoreet sed. Nam vitae interdum ex. Nullam nibh nisi, pretium non sapien eget, egestas maximus lorem. Proin ultricies pulvinar orci, vitae luctus est dapibus sit amet. Quisque pulvinar accumsan ipsum in vehicula. Etiam non dapibus risus. Phasellus hendrerit mauris in enim maximus, aliquam dapibus diam bibendum.
+
+Sed eleifend finibus sapien ac posuere. Nunc eleifend libero mattis sapien ornare porttitor. Phasellus condimentum libero ac ex luctus, eget aliquam mauris vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum aliquet egestas pharetra. Integer tincidunt, ex a pretium placerat, leo est convallis dui, ac dignissim ipsum est sit amet metus. Vestibulum viverra, risus a euismod elementum, enim felis sodales dui, non ornare nunc dui blandit libero. Nulla lorem lorem, elementum at accumsan a, porta nec nibh. Donec imperdiet, justo quis sagittis lobortis, arcu magna ornare neque, eget malesuada arcu augue nec libero. Ut vitae augue ornare, ornare odio sit amet, sodales turpis. Ut eu mi tortor. Nulla lacus risus, rhoncus in ex at, imperdiet tempus elit. Vestibulum vel turpis elit. Fusce eget ex justo. Cras vitae neque lacinia, tincidunt quam a, laoreet lacus. Nam quam est, faucibus eget sodales id, placerat a nibh.Sed eleifend finibus sapien ac posuere. Nunc eleifend libero mattis sapien ornare porttitor. Phasellus condimentum libero ac ex luctus, eget aliquam mauris vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum aliquet egestas pharetra. Integer tincidunt, ex a pretium placerat, leo est convallis dui, ac dignissim ipsum est sit amet metus. Vestibulum viverra, risus a euismod elementum, enim felis sodales dui, non ornare nunc dui blandit libero. Nulla lorem lorem, elementum at accumsan a, porta nec nibh. Donec imperdiet, justo quis sagittis lobortis, arcu magna ornare neque, eget malesuada arcu augue nec libero. Ut vitae augue ornare, ornare odio sit amet, sodales turpis. Ut eu mi tortor. Nulla lacus risus, rhoncus in ex at, imperdiet tempus elit. Vestibulum vel turpis elit. Fusce eget ex justo. Cras vitae neque lacinia, tincidunt quam a, laoreet lacus. Nam quam est, faucibus eget sodales id, placerat a nibh.</p>
+	  <h4 id="two">two</h4>
+	  <p>Ut condimentum et dui et vehicula. Maecenas tincidunt ultrices massa. Nulla id euismod quam. Suspendisse consectetur sollicitudin elementum. Pellentesque vitae tortor sem. Pellentesque at massa venenatis, euismod dolor sit amet, ultrices neque. Cras a risus molestie orci ultrices pharetra. Integer vel hendrerit orci, ut sodales enim. In convallis orci quis tortor maximus, sit amet congue tellus imperdiet. Ut tempor rhoncus nisl, eu mattis sapien laoreet sed. Nam vitae interdum ex. Nullam nibh nisi, pretium non sapien eget, egestas maximus lorem. Proin ultricies pulvinar orci, vitae luctus est dapibus sit amet. Quisque pulvinar accumsan ipsum in vehicula. Etiam non dapibus risus. Phasellus hendrerit mauris in enim maximus, aliquam dapibus diam bibendum.
+
+Sed eleifend finibus sapien ac posuere. Nunc eleifend libero mattis sapien ornare porttitor. Phasellus condimentum libero ac ex luctus, eget aliquam mauris vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum aliquet egestas pharetra. Integer tincidunt, ex a pretium placerat, leo est convallis dui, ac dignissim ipsum est sit amet metus. Vestibulum viverra, risus a euismod elementum, enim felis sodales dui, non ornare nunc dui blandit libero. Nulla lorem lorem, elementum at accumsan a, porta nec nibh. Donec imperdiet, justo quis sagittis lobortis, arcu magna ornare neque, eget malesuada arcu augue nec libero. Ut vitae augue ornare, ornare odio sit amet, sodales turpis. Ut eu mi tortor. Nulla lacus risus, rhoncus in ex at, imperdiet tempus elit. Vestibulum vel turpis elit. Fusce eget ex justo. Cras vitae neque lacinia, tincidunt quam a, laoreet lacus. Nam quam est, faucibus eget sodales id, placerat a nibh.Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras euismod posuere posuere. Duis et rutrum nisi. Fusce at turpis lectus. Ut sit amet dapibus tellus. Sed quis mi in erat consectetur bibendum. Donec posuere varius faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis odio ac arcu vestibulum faucibus. Nunc et faucibus neque. Suspendisse metus lorem, consequat id interdum quis, tempus ut enim. Sed quis dolor odio. Aliquam rhoncus lectus quis augue pretium facilisis.
+
+</p>
+	  <h4 id="three">three</h4>
+	  <p>Ut condimentum et dui et vehicula. Maecenas tincidunt ultrices massa. Nulla id euismod quam. Suspendisse consectetur sollicitudin elementum. Pellentesque vitae tortor sem. Pellentesque at massa venenatis, euismod dolor sit amet, ultrices neque. Cras a risus molestie orci ultrices pharetra. Integer vel hendrerit orci, ut sodales enim. In convallis orci quis tortor maximus, sit amet congue tellus imperdiet. Ut tempor rhoncus nisl, eu mattis sapien laoreet sed. Nam vitae interdum ex. Nullam nibh nisi, pretium non sapien eget, egestas maximus lorem. Proin ultricies pulvinar orci, vitae luctus est dapibus sit amet. Quisque pulvinar accumsan ipsum in vehicula. Etiam non dapibus risus. Phasellus hendrerit mauris in enim maximus, aliquam dapibus diam bibendum.
+
+	Sed eleifend finibus sapien ac posuere. Nunc eleifend libero mattis sapien ornare porttitor. Phasellus condimentum libero ac ex luctus, eget aliquam mauris vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum aliquet egestas pharetra. Integer tincidunt, ex a pretium placerat, leo est convallis dui, ac dignissim ipsum est sit amet metus. Vestibulum viverra, risus a euismod elementum, enim felis sodales dui, non ornare nunc dui blandit libero. Nulla lorem lorem, elementum at accumsan a, porta nec nibh. Donec imperdiet, justo quis sagittis lobortis, arcu magna ornare neque, eget malesuada arcu augue nec libero. Ut vitae augue ornare, ornare odio sit amet, sodales turpis. Ut eu mi tortor. Nulla lacus risus, rhoncus in ex at, imperdiet tempus elit. Vestibulum vel turpis elit. Fusce eget ex justo. Cras vitae neque lacinia, tincidunt quam a, laoreet lacus. Nam quam est, faucibus eget sodales id, placerat a nibh.Morbi mattis et mauris eget volutpat. Morbi laoreet eros vel mauris tincidunt, in pulvinar sem pharetra. Aliquam erat volutpat. Duis mollis molestie augue, a lacinia diam rutrum nec. Integer ut dictum lacus. Quisque porttitor enim quis lorem ornare dapibus. Duis vitae augue at odio tempor lobortis id nec dolor. Quisque non urna sit amet mauris efficitur pharetra vulputate in leo. Suspendisse potenti. Fusce id nisl et risus feugiat dapibus. Phasellus sed nulla eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin viverra magna vitae condimentum pretium. Nam eleifend ut quam ut tristique. In hendrerit in nunc ut elementum.
+
+</p>
+	</div>
+
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-name="bibo">
+	  Email Bibo
+	</button>
+
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"data-name="sopi">
+	  Email Sopi
+	</button>
+
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"data-name="hammy">
+	  Email Hammy
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        ...
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<button type="button" class="btn btn-lg btn-danger" data-toggle="popover" data-placement="bottom" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+
+	<button type="button" id="tooltip" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+  	Tooltip on bottom
+	</button>
+
+	<!-- <script src="https://unpkg.com/@popperjs/core@2"></script> -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+	<script type="text/javascript">
+		$('#exampleModal').on('show.bs.modal', function (event) {
+			var button = $(event.relatedTarget)
+			var recipient = button.data('name')
+			var modal = $(this)
+			modal.find('.modal-title').text('New message to ' + recipient) 
+		})
+
+		$("#exampleModal").on('hidden.bs.modal', function(event){
+			alert('modal has been closed!')
+		})
+
+		$('[data-toggle="popover"]').popover()
+		$('#tooltip').tooltip('enable')
+
+		$('#tooltip').on('shown.bs.tooltip', function(){
+			alert("tooltip is shown!");
+		})
+		$('body').scrollspy({target:'#navbar-example2'})
+	</script>
+</body>
+</html>
